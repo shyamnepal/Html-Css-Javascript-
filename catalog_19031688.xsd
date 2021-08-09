@@ -1,0 +1,95 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="musicStore">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="storeName"/>
+        <xs:element type="xs:string" name="storeAddress"/>
+        <xs:element type="xs:string" name="telephoneNumber"/>
+        <xs:element type="xs:anyURI" name="website_URL"/>
+        <xs:element name="logo">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="image"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="musics">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="music" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="musicName">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:byte" name="id" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="release_year">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:short">
+                            <xs:attribute type="xs:byte" name="day" use="optional"/>
+                            <xs:attribute type="xs:string" name="month" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="director">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="directorName"/>
+                          <xs:element type="xs:string" name="directorAddress"/>
+                          <xs:element type="xs:string" name="directorPhoneNumber"/>
+                          <xs:element type="xs:string" name="directorEmail" minOccurs="0"/>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="gender" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="producer">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="producerName"/>
+                          <xs:element type="xs:string" name="producerAddress"/>
+                          <xs:element type="xs:string" name="producerPhoneNumber"/>
+                          <xs:element type="xs:string" name="workingStudio" minOccurs="0"/>
+                          <xs:element type="xs:string" name="productionTime" minOccurs="0"/>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="gender" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="writer">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="writerName"/>
+                          <xs:element type="xs:string" name="writerAddress"/>
+                          <xs:element type="xs:string" name="writerPhoneNumber"/>
+                          <xs:element type="xs:string" name="Language" minOccurs="0"/>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="gender" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="singer">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="singerName"/>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="gender" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="Category" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

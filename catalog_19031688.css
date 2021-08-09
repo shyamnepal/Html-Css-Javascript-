@@ -1,0 +1,248 @@
+* {
+  	box-sizing: border-box;
+}
+
+
+musicStore {
+	border: solid 5px;
+	background-color: #fcecdd
+}
+storeName {
+	display: block;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: rgb(191,32,39);
+	font-size: 50px;
+	padding: 5px;
+	font-weight: bold;
+	background-color: black;
+	border: solid 4px;
+	border-bottom: none;
+}
+storeAddress {
+	display: block;
+	text-align: center;
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 18px;
+	color: rgb(0,0,0);
+	padding: 5px;
+	background-color: black;
+	border-left: solid 4px;
+	border-right: solid 4px;
+	color: white;
+}
+telephoneNumber{
+	display: block;
+	text-align: center;
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 18px;
+	color: rgb(0,0,0);
+	padding: 5px;
+	background-color: black;
+	border-left: solid 4px;
+	border-right: solid 4px;
+	color: white;
+}
+website_URL{
+	display: block;
+	text-align: center;
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 18px;
+	color: rgb(0,0,0);
+	padding: 5px;
+	background-color: black;
+	border-left: solid 4px;
+	border-right: solid 4px;
+	color: white;
+}
+
+logo {
+	background: url("logo.png");
+	width:200px;
+	height:200px;
+	background-size: 150px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	margin: 8px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 150px 150px;
+}
+musics{
+  float: right;
+  width: 100%;
+  padding: 50px;
+}
+
+music::before{
+	content: "Category:" attr(Category);
+	text-align: center;
+	display: block;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+music {
+	display:block;    
+  	border: 1px solid silver;
+ 	margin:0.5em; 
+  	padding:0.5em; 
+  	background-color:whitesmoke;
+ 	font-size: 25px;   
+ 
+}
+
+musicName::before{
+	content: "Music Name:";
+	font-weight: bold;
+	font-size: 30px;
+}
+
+musicName {
+	display: block;
+	text-align:center;
+}
+
+release_year::before{
+content: "Release Year:";
+font-weight: bold;
+font-size: 30px;
+
+}
+release_year{
+	display: block;
+	text-align: center;
+}
+director::before{
+	content: "gender:" attr(gender);
+	text-align: center;
+	display: block;
+	font-weight: bold;
+	font-size: 30px;
+
+}
+
+directorName::before{
+content: "Director Name: ";
+font-weight: bold;
+font-size: 30px;
+
+
+}
+directorAddress::before{
+	content: "Address: ";
+	font-weight: bold;
+	font-size: 30px;
+}
+directorPhoneNumber::before{
+	content: "Phone Number: ";
+	font-weight: bold;
+	font-size: 30px;
+}
+directorEmail::before{
+	content: "Email: ";
+	font-weight: bold;
+	font-size: 30px;
+}
+directorName,directorAddress,directorPhoneNumber,directorEmail{
+	text-align: center;
+	display: block
+
+}
+
+
+producer::before{
+	content: "Gender:" attr(gender);
+	text-align: center;
+	display: block;
+	font-weight: bold;
+	font-size: 30px;
+
+}
+producerName::before{
+	content: "Producer Name: ";
+	font-weight: bold;
+	font-size: 30px;
+}
+producerAddress::before{
+	content: "Address:";
+	font-weight: bold;
+	font-size: 30px;
+}
+producerPhoneNumber::before{
+	content: "Phone Number:";
+	font-weight: bold;
+	font-size: 30px;
+}
+workingStudio::before{
+	content: "Studio Name:";
+	font-weight: bold;
+	font-size: 30px;
+}
+productionTime::before{
+	content: "Production Time:";
+	font-weight: bold;
+	font-size: 30px;
+}
+producerName, producerAddress,producerPhoneNumber,workingStudio,productionTime{
+	text-align: center;
+	display: block
+
+}
+writer::before{
+	content: "Gender:" attr(gender);
+	text-align: center;
+	display: block;
+	font-weight: bold;
+	font-size: 30px;
+
+}
+
+writerName::before{
+	content: "Writer Name:";
+	font-weight: bold;
+	font-size: 30px;
+}
+writerAddress::before{
+	content: "Address:";
+	font-weight: bold;
+	font-size: 30px;
+}
+writerPhoneNumber::before{
+	content: "Phone Number:";
+	font-weight: bold;
+	font-size: 30px;
+}
+
+Language::before{
+	content: "Language:";
+	font-weight: bold;
+	font-size: 30px;
+
+}
+writerName, writerAddress, writerPhoneNumber, Language{
+	text-align: center;
+	display: block;
+
+}
+singer::before{
+	content: "Gender:" attr(gender);
+	text-align: center;
+	display: block;
+	font-weight: bold;
+	font-size: 30px;
+
+}
+singerName::before{
+	content: "Singer Name:";
+	font-weight: bold;
+	font-size: 30px;
+}
+
+
+singerName{
+	text-align: center;
+	display: block
+
+}

@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="catalog_19031688.css"?>
+<!DOCTYPE musicStore SYSTEM "catalog_19031688.dtd">
+<musicStore 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:noNamespaceSchemaLocation="catalog_19031688.xsd">
+	<storeName>Nepal Music Store</storeName>
+	<storeAddress>Balaju, kathmandu</storeAddress>
+	<telephoneNumber>01-4025456</telephoneNumber>
+	<website_URL>www.nepalmusicstore.com</website_URL>
+	<logo image="img"/>	
+    <musics>
+
+	    <music Category="Jazz">
+			<musicName id="101">Lut Gaye</musicName>
+			<release_year day="10" month="february">2021</release_year>
+			<director gender="female">
+
+				<directorName>Radhika Rao</directorName>
+				<directorAddress>Mumbai India</directorAddress>
+				<directorPhoneNumber>011548965</directorPhoneNumber>
+				<directorEmail>Radhikarao@gmail.com</directorEmail>
+					
+			</director>
+			<producer gender="male">
+				<producerName>Yash Chopra</producerName>
+				<producerAddress>Maharashtra</producerAddress>
+				<producerPhoneNumber>011456823</producerPhoneNumber>
+				<workingStudio>Providence Recording Stdio</workingStudio>
+				<productionTime>30 days</productionTime>
+				
+			</producer>
+			<writer gender="male">
+				<writerName>Khushwant Singh</writerName>
+				<writerAddress>Gujarat</writerAddress>
+				<writerPhoneNumber>011562345</writerPhoneNumber>
+				<Language>Hindi</Language>
+				
+			</writer>
+			<singer gender="male">
+				<singerName>Jubin Nautiyal</singerName>
+
+			</singer>
+		</music>
+
+		<music Category="Jazz">
+			<musicName id="102">Sali Mann Paryo</musicName>
+			<release_year day="10" month="March">2021</release_year>
+			<director gender="male">
+				<directorName>Nichal Basnet</directorName>
+				<directorAddress>kathmandu</directorAddress>
+				<directorPhoneNumber>9845625478</directorPhoneNumber>
+				<directorEmail>nischal@gmail.com</directorEmail>
+			
+					
+			</director>
+			<producer gender="male">
+
+				<producerName>Narendra Bikram</producerName>
+				<producerAddress>Bidur,Nuwakot</producerAddress>
+				<producerPhoneNumber>01-4523658</producerPhoneNumber>
+				<workingStudio>Idea Studio Nepal</workingStudio>
+				<productionTime>45 days</productionTime>
+				
+			</producer>
+			<writer gender="male">
+
+				<writerName>Shirshak Raj Kunwar</writerName>
+				<writerAddress>Bhaktapur</writerAddress>
+				<writerPhoneNumber>9845621548</writerPhoneNumber>
+				<Language>Nepali</Language>
+				
+			</writer>
+			<singer gender="male">
+				<singerName>Kali Prasad Baskota</singerName>
+
+			</singer>
+		</music>
+
+		<music Category="Rock">
+			<musicName id="103">Man Magan</musicName>
+			<release_year day="11" month="April">2008</release_year>
+			<director gender="male">
+				<directorName>Dipendra K khanal</directorName>
+				<directorAddress>Birjung</directorAddress>
+				<directorPhoneNumber>9845621352</directorPhoneNumber>
+				
+					
+			</director>
+			<producer gender="male">
+				<producerName>Narendra Bikram</producerName>
+				<producerAddress>Dharan</producerAddress>
+				<producerPhoneNumber>01-4589565</producerPhoneNumber>
+				<productionTime>15 days</productionTime>
+				
+				
+				
+			</producer>
+			<writer gender="male">
+
+				<writerName>Ricky Shakya</writerName>
+				<writerAddress>Bhaktapur</writerAddress>
+				<writerPhoneNumber>9812458652</writerPhoneNumber>
+				<Language>Nepali</Language>
+				
+				
+			</writer>
+			<singer gender="male">
+				<singerName>Deepak Bajracharya</singerName>
+
+			</singer>
+		</music>
+	
+
+	
+		<music Category="PopMusic">
+			<musicName id="104">Holy</musicName>
+			<release_year day="24" month="March">2021</release_year>
+			<director gender="female">
+
+				<directorName>Lana Del Rey</directorName>
+				<directorAddress>California</directorAddress>
+				<directorPhoneNumber>754-3010</directorPhoneNumber>
+				<directorEmail>Lanadellrey@gmail.com</directorEmail>
+			
+		
+				
+						
+			</director>
+			<producer gender="male">
+
+
+				<producerName>Tom Allom</producerName>
+				<producerAddress>New York</producerAddress>
+				<producerPhoneNumber>456-2456</producerPhoneNumber>
+				<workingStudio>Black Label Recording Studio</workingStudio>
+				<productionTime>25 days</productionTime>
+				
+			</producer>
+			<writer gender="male">
+				<writerName>Madonna</writerName>
+				<writerAddress>Bay city, United State</writerAddress>
+				<writerPhoneNumber>254-7854</writerPhoneNumber>
+				<Language>English</Language>
+				
+			</writer>
+			<singer gender="male">
+				<singerName>Justin Bieber</singerName>
+
+			</singer>
+		</music>
+		
+		<music Category="PopMusic">
+			<musicName id="105">Break My Heart</musicName>
+			<release_year day="25" month="March">2021</release_year>
+			<director gender="male">
+				<directorName>Andrew Watt</directorName>
+				<directorAddress>New York</directorAddress>
+				<directorPhoneNumber>754-3010</directorPhoneNumber>
+				<directorEmail>andrew@gmail.com</directorEmail>
+			
+
+				
+			
+					
+			</director>
+			<producer gender="female">
+
+				<producerName>Lauren Christy</producerName>
+				<producerAddress>London, United Kingdom</producerAddress>
+				<producerPhoneNumber>489-7854</producerPhoneNumber>
+				<workingStudio>Studio 11</workingStudio>
+				<productionTime>30 days</productionTime>
+				
+			</producer>
+			<writer gender="female">
+
+				<writerName>Ali Tamposi</writerName>
+				<writerAddress>West Palm Beach, Florida</writerAddress>
+				<writerPhoneNumber>245-6584</writerPhoneNumber>
+				<Language>English</Language>
+				
+				
+			</writer>
+			<singer gender="male">
+				<singerName>Dua Lipa</singerName>
+
+			</singer>
+		</music>
+		
+		<music Category="PopMusic">
+			<musicName id="106">UP</musicName>
+			<release_year day="05" month="february">2021</release_year>
+			<director gender="male">
+				<directorName>Nikita Kuzmenko</directorName>
+				<directorAddress>London, United Kindgon</directorAddress>
+				<directorPhoneNumber>547-2546</directorPhoneNumber>
+				<directorEmail>nikita@gmail.com</directorEmail>
+
+				
+					
+			</director>
+			<producer gender="male">
+
+				<producerName>Tay Hawes</producerName>
+				<producerAddress>Los Angeles</producerAddress>
+				<producerPhoneNumber>568-7458</producerPhoneNumber>
+				<workingStudio>Sunset Sound Recorders</workingStudio>
+				
+			</producer>
+			<writer gender="female">
+				<writerName>Joshua Baker</writerName>
+				<writerAddress>Florida</writerAddress>
+				<writerPhoneNumber>547-5689</writerPhoneNumber>
+				
+				
+			</writer>
+			<singer gender="male">
+				<singerName>Cardi B</singerName>
+
+			</singer>
+		</music>
+
+				<music Category="CountryMusic">
+			<musicName id="107">Some Gave All</musicName>
+			<release_year day="09" month="April">1992</release_year>
+			<director gender="female">
+				<directorName>Mariah Carey</directorName>
+				<directorAddress>Huntington, New York, United States</directorAddress>
+				<directorPhoneNumber>254-7895</directorPhoneNumber>
+				<directorEmail>mariahcarey@gmail.com</directorEmail>
+
+
+				
+			
+					
+			</director>
+			<producer gender="male">
+				<producerName>Richard James Burgess</producerName>
+				<producerAddress>London, United Kingdom</producerAddress>
+				<producerPhoneNumber>548-7894</producerPhoneNumber>
+				<workingStudio>Music Mill Recording Studio</workingStudio>
+				<productionTime>14 days</productionTime>
+				
+
+				
+				
+			</producer>
+			<writer gender="male">
+				<writerName>Stephen Thomas Erlewine</writerName>
+				<writerAddress>Colorado</writerAddress>
+				<writerPhoneNumber>874-5647</writerPhoneNumber>
+				<Language>English</Language>
+
+				
+				
+			</writer>
+			<singer gender="male">
+				<singerName>Billy Ray Cyrus</singerName>
+
+			</singer>
+		</music>
+
+		
+
+		<music Category="CountryMusic">
+			<musicName id="108"> American Country Love Song</musicName>
+			<release_year day="15" month="August">2016</release_year>
+			<director gender="male">
+				<directorName>Jeff Venable</directorName>
+				<directorAddress>san francisco</directorAddress>
+				<directorPhoneNumber>012-4568</directorPhoneNumber>
+				<directorEmail>jeffvenable@gmail.com</directorEmail>
+
+				
+			
+					
+			</director>
+			<producer gender="male">
+				<producerName>Ross Copperman</producerName>
+				<producerAddress>Roanoke, Virginia, United States</producerAddress>
+				<producerPhoneNumber>248-7854</producerPhoneNumber>
+				<workingStudio>Motown Studios</workingStudio>
+				<productionTime>10 days</productionTime>
+				
+			</producer>
+			<writer gender="male">
+				<writerName>Don Felder</writerName>
+				<writerAddress>Gainesville, Florida, United States</writerAddress>
+				<writerPhoneNumber>145-8745</writerPhoneNumber>
+				<Language>English</Language>
+				
+				
+			</writer>
+			<singer gender="male">
+				<singerName>Jake Owen</singerName>
+
+			</singer>
+		</music>
+
+		<music Category="PopMusic">
+			<musicName id="109">Hawa Banke</musicName>
+			<release_year day="25" month="March">2021</release_year>
+			<director gender="male">
+				<directorName> Abhishek Sinha</directorName>
+				<directorAddress>Bangalore</directorAddress>
+				<directorPhoneNumber>2356487954</directorPhoneNumber>
+				<directorEmail>abhisheksinha@gmail.com</directorEmail>
+
+				
+			
+					
+			</director>
+			<producer gender="female">
+				<producerName>Vikas Pathak</producerName>
+				<producerAddress>Mumbai, India</producerAddress>
+				<producerPhoneNumber>2564789521</producerPhoneNumber>
+				<workingStudio>Ferris wheel Studios</workingStudio>
+				<productionTime>20 days</productionTime>
+				
+				
+			</producer>
+			<writer gender="female">
+				<writerName>Manoj Muntashir</writerName>
+				<writerAddress> Gauriganj, India</writerAddress>
+				<writerPhoneNumber>2458794562</writerPhoneNumber>
+				<Language>Hindi</Language>
+								
+			</writer>
+			<singer gender="female">
+				<singerName>Dua Lipa</singerName>
+
+			</singer>
+		</music>
+
+		<music Category="Dubstep">
+			<musicName id="110">Ease My Mind</musicName>
+			<release_year day="20" month="May">2014</release_year>
+			<director gender="male">
+				<directorName> Nick Lieberman</directorName>
+				<directorAddress>New York City</directorAddress>
+				<directorPhoneNumber>456-8457</directorPhoneNumber>
+				<directorEmail>nicklieberman@gmail.com</directorEmail>
+
+
+				
+			</director>
+			<producer gender="male">
+				<producerName>Skrillex</producerName>
+				<producerAddress>California, United States</producerAddress>
+				<producerPhoneNumber>124-7854</producerPhoneNumber>
+				<workingStudio>Sun Studios</workingStudio>
+				<productionTime>11 days</productionTime>
+				
+			</producer>
+			<writer gender="male">
+				<writerName>Sonny Moore</writerName>
+				<writerAddress>Highland Park, Los Angeles, California, United States</writerAddress>
+				<writerPhoneNumber>124-8564</writerPhoneNumber>
+				<Language>English</Language>
+								
+				
+			</writer>
+			<singer gender="male">
+				<singerName>Skrillex</singerName>
+
+			</singer>
+		</music>
+
+		
+
+		<music Category="Modern">
+			<musicName id="111">Phul Butte Sari</musicName>
+			<release_year day="05" month="December">2020</release_year>
+			<director gender="male">
+				<directorName> Rajesh Puma Rai</directorName>
+				<directorAddress>Butwal</directorAddress>
+				<directorPhoneNumber>9842587413</directorPhoneNumber>
+				<directorEmail>rajeshpuma@gmail.com</directorEmail>
+
+
+				
+			
+					
+			</director>
+			<producer gender="male">
+				<producerName>Kendra Limbu</producerName>
+				<producerAddress>koteshwor,kathmandu</producerAddress>
+				<producerPhoneNumber>9843564821</producerPhoneNumber>
+				<productionTime>15 days</productionTime>
+				
+				
+			</producer>
+			<writer gender="male">
+				<writerName>Rajan Raj Shiwakoti</writerName>
+				<writerAddress>Chitwan</writerAddress>
+				<writerPhoneNumber>9845745212</writerPhoneNumber>
+				<Language>Nepali</Language>
+				
+				
+			</writer>
+			<singer gender="male">
+				<singerName>Milan Newar</singerName>
+
+			</singer>
+		</music>
+
+		<music Category="Modern">
+			<musicName id="112">Kaile Vetne Khai 2</musicName>
+			<release_year day="29" month="December">2020</release_year>
+			<director gender="male">
+				<directorName> Manoj Basnet</directorName>
+				<directorAddress>Gaushala, Kathmandu</directorAddress>
+				<directorPhoneNumber>9845784521</directorPhoneNumber>
+				<directorEmail>rmanojbasnet@gmail.com</directorEmail>
+
+				
+			
+					
+			</director>
+			<producer gender="male">
+				<producerName>Rubal Basnet</producerName>
+				<producerAddress>Manamaiju,kathmandu</producerAddress>
+				<producerPhoneNumber>9842568454</producerPhoneNumber>
+				<workingStudio>Dream Recording Studio</workingStudio>
+				<productionTime>13 days</productionTime>
+				
+				
+			</producer>
+			<writer gender="male">
+				<writerName>Almoda Rana Uprety</writerName>
+				<writerAddress>Bagbazar,Kathmandu</writerAddress>
+				<writerPhoneNumber>9845752145</writerPhoneNumber>
+				<Language>Nepali</Language>
+				
+				
+				
+			</writer>
+			<singer gender="male">
+				<singerName>Almoda Rana Uprety</singerName>
+
+			</singer>
+		</music>
+
+		<music Category="Modern">
+			<musicName id="113">Kaile Vetne Khai 2</musicName>
+			<release_year day="29" month="December">2020</release_year>
+			<director gender="male">
+				<directorName> Asim Shah</directorName>
+				<directorAddress>Kamalphokari, Kathmandu</directorAddress>
+				<directorPhoneNumber>9854621548</directorPhoneNumber>
+				<directorEmail>asimshah@gmail.com</directorEmail>
+
+				
+			
+					
+			</director>
+			<producer gender="male">
+				<producerName>Sameer Thapa</producerName>
+				<producerAddress>Tokha,kathmandu</producerAddress>
+				<producerPhoneNumber>9854213564</producerPhoneNumber>
+				<workingStudio>Alfa Studio Nepal</workingStudio>
+				<productionTime>15 days</productionTime>
+				
+			</producer>
+			<writer gender="male">
+				<writerName>Mahesh Kafle</writerName>
+				<writerAddress>Newroad,Kathmandu</writerAddress>
+				<writerPhoneNumber>9845215485</writerPhoneNumber>
+				<Language>Nepali</Language>
+				
+			</writer>
+			<singer gender="male">
+				<singerName>Mahesh Kafle</singerName>
+
+			</singer>
+		</music>
+
+
+		<music Category="Jazz">
+			<musicName id="114">Bekhayali</musicName>
+			<release_year day="04" month="July">2019</release_year>
+			<director gender="male">
+				<directorName> Kaushal Gohil</directorName>
+				<directorAddress>Gujarat</directorAddress>
+				<directorPhoneNumber>2345852654</directorPhoneNumber>
+				<directorEmail>kaushalgohil@gmail.com</directorEmail>
+
+
+				
+			
+					
+			</director>
+			<producer gender="male">
+				<producerName>Godswill Mergulhao</producerName>
+				<producerAddress>Mumbai, India</producerAddress>
+				<producerPhoneNumber>02502453156</producerPhoneNumber>
+				<workingStudio>Krimson Avenue Studios</workingStudio>
+				<productionTime>17 days</productionTime>
+				
+			</producer>
+			<writer gender="male">
+				<writerName>Bobby Shrivastava</writerName>
+				<writerAddress>Bangalore, India</writerAddress>
+				<writerPhoneNumber>2212345678</writerPhoneNumber>
+				<Language>Hindi</Language>
+				
+			</writer>
+			<singer gender="male">
+				<singerName>Arijit Singh</singerName>
+
+			</singer>
+		</music>
+
+
+		<music Category="Jazz">
+			<musicName id="115">Humnava Mere</musicName>
+			<release_year day="23" month="May">2018</release_year>
+			<director gender="male">
+				<directorName>Aditya Dev</directorName>
+				<directorAddress>Dehradun, India</directorAddress>
+				<directorPhoneNumber>2456872135</directorPhoneNumber>
+				
+
+
+				
+			
+					
+			</director>
+			<producer gender="male">
+				<producerName>Godswill Mergulhao</producerName>
+				<producerAddress>Mumbai, India</producerAddress>
+				<producerPhoneNumber>02502453156</producerPhoneNumber>
+				<workingStudio>Emsquare Studios</workingStudio>
+				
+				
+			</producer>
+			<writer gender="male">
+				<writerName>Manoj Muntashir</writerName>
+				<writerAddress>Gauriganj, India</writerAddress>
+				<writerPhoneNumber>2564856231</writerPhoneNumber>
+				
+				
+				
+			</writer>
+			<singer gender="male">
+				<singerName>Jubin Nautiyal</singerName>
+			</singer>
+		</music>
+		
+
+
+
+
+
+
+		
+	</musics>
+</musicStore>
+

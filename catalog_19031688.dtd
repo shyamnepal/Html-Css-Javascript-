@@ -1,0 +1,44 @@
+
+<!ELEMENT musicStore (storeName, storeAddress, telephoneNumber, website_URL, logo, musics+)>
+<!ATTLIST musicStore xmlns:xsi CDATA #IMPLIED xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+<!ELEMENT storeName (#PCDATA)>
+<!ELEMENT storeAddress (#PCDATA)>
+<!ELEMENT telephoneNumber (#PCDATA)>
+<!ELEMENT website_URL (#PCDATA)>
+<!ELEMENT logo EMPTY>
+<!ATTLIST logo image ID #REQUIRED>
+<!ELEMENT musics (music+)>
+<!ATTLIST music Category (Jazz|Rock|CountryMusic|Modern|Dubstep|PopMusic) "Modern">
+
+<!ELEMENT music (musicName, release_year, director+, producer+, writer+, singer+)>
+<!ELEMENT musicName (#PCDATA)>
+<!ATTLIST musicName id CDATA #REQUIRED>
+<!ELEMENT release_year (#PCDATA)>
+<!ATTLIST release_year day CDATA #IMPLIED month CDATA #REQUIRED>
+
+
+<!ELEMENT director (directorName, directorAddress, directorPhoneNumber, directorEmail?)>
+<!ATTLIST director gender CDATA #REQUIRED>
+<!ELEMENT directorName (#PCDATA)>
+<!ELEMENT directorAddress (#PCDATA)>
+<!ELEMENT directorPhoneNumber (#PCDATA)>
+<!ELEMENT directorEmail (#PCDATA)>
+
+<!ELEMENT producer (producerName, producerAddress, producerPhoneNumber, workingStudio?, productionTime?)>
+<!ATTLIST producer gender CDATA #REQUIRED>
+<!ELEMENT producerName (#PCDATA)>
+<!ELEMENT producerAddress (#PCDATA)>
+<!ELEMENT producerPhoneNumber (#PCDATA)>
+<!ELEMENT workingStudio (#PCDATA)>
+<!ELEMENT productionTime (#PCDATA)>
+
+<!ELEMENT writer (writerName, writerAddress, writerPhoneNumber, Language?)>
+<!ATTLIST writer gender CDATA #REQUIRED>
+<!ELEMENT writerName (#PCDATA)>
+<!ELEMENT writerAddress (#PCDATA)>
+<!ELEMENT writerPhoneNumber (#PCDATA)>
+<!ELEMENT Language (#PCDATA)>
+
+<!ELEMENT singer (singerName)>
+<!ATTLIST singer gender CDATA #REQUIRED>
+<!ELEMENT singerName (#PCDATA)>
