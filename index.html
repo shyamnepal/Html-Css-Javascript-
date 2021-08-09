@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>this is the home page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	
+	<style type="text/css">
+		.mySlides {
+			display:none;
+		}
+		.row{
+			display: flex;
+		}
+		.col1{
+			flex: 30%;
+			margin: 20px;
+		}
+		.col2{
+			flex: 70%;
+			margin: 20px;
+		}
+		
+		.image{
+			border-radius: 70%;
+			float: right;
+		}
+		body{
+			background-color: tomato;
+	</style>
+
+</head>
+<body>
+	<div class="container">
+		<nav>
+			<label class="logo">welcome to my Home page</label>
+			<ul>
+				<li> <a  href="index.html">Home</a></li>
+				<li > <a href="cv.html">CV</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="research.html">Research</a></li>
+				<li><a href="contact.html">About</a></li>
+			</ul>
+		</nav> 
+
+		<div class="row">
+			<div class="col1">
+				<img class="image" src="photo.jpg" height="400px" width="400px" style="margin-top: 40px"> 
+				<p class="name">shyam sundar nepal</p>
+			</div>
+			
+	
+
+		<div class="col2" style="max-width:60%">
+			<h2 class="w3-center">Image-Slideshow</h2>
+		  <img class="mySlides" src="nature.jpg" style="width:100%">
+		  <img class="mySlides" src="nature1.jpg" style="width:100%">
+		  <img class="mySlides" src="download1.jpg" style="width:100%">
+		</div>
+		</div>
+	</div>
+
+		<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  for (i = 0; i < x.length; i++) {
+		    x[i].style.display = "none";  
+		  }
+		  myIndex++;
+		  if (myIndex > x.length) 
+		  	{
+		  		myIndex = 1
+		  	}    
+		  x[myIndex-1].style.display = "block";  
+		  setTimeout(carousel, 3000); // Change image every 3 seconds
+		}
+		</script>
+
+</body>
+</html>
